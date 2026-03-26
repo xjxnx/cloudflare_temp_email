@@ -56,7 +56,7 @@
 
 ## 在线体验
 
-立即体验 → [https://mail.awsl.uk/](https://mail.awsl.uk/)
+立即体验 → [https://mail.524028.xyz/](https://mail.524028.xyz/)
 
 <details>
 <summary>服务状态监控（点击收缩/展开）</summary>
