@@ -20,7 +20,7 @@ const { announcement } = useGlobalState()
                 </template>
                 Discord
             </n-button>
-            <n-button tag="a" target="_blank" href="https://t.me/cloudflare_temp_email">
+            <n-button tag="a" target="_blank" href="https://t.me/+CG2eRg1q6740YmE0">
                 <template #icon>
                     <n-icon :component="Telegram" />
                 </template>
