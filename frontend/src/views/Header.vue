@@ -221,7 +221,7 @@ const menuOptions = computed(() => [
                 style: "width: 100%",
                 tag: "a",
                 target: "_blank",
-                href: "https://github.com/dreamhunter2333/cloudflare_temp_email",
+                href: "https://github.com/xjxnx/cloudflare_temp_email",
             },
             {
                 default: () => version || "Github",
