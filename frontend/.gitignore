@@ -30,5 +30,6 @@ coverage
 .env.*
 !.env.example
 !.env.pages
+!.env.prod
 *-dist/
 components.d.ts
