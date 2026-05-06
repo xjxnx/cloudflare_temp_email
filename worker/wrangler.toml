@@ -16,6 +16,7 @@ ENABLE_USER_DELETE_EMAIL = true
 ENABLE_AUTO_REPLY = false
 ENABLE_ADDRESS_PASSWORD = false
 COPYRIGHT = "xjxnx"
+TITLE = "MiaoMail"
 
 [[d1_databases]]
 binding = "DB"
