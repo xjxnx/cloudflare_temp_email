@@ -55,6 +55,7 @@ export type LocaleMessages = {
     NameTooShortMsg: string
     NameTooLongMsg: string
     InvalidDomainMsg: string
+    RandomSubdomainNotAllowedMsg: string
     AddressAlreadyExistsMsg: string
     MaxAddressCountReachedMsg: string
     AddressNotBindedMsg: string
@@ -68,13 +69,16 @@ export type LocaleMessages = {
     ContentEmptyMsg: string
     AlreadyRequestedMsg: string
     EnableResendOrSmtpMsg: string
-    EnableResendOrSmtpWithVerifiedMsg: string
+    EnableResendOrSmtpOrSendMailMsg: string
+    ServerSendMailDailyLimitMsg: string
+    ServerSendMailMonthlyLimitMsg: string
     InvalidToMailMsg: string
 
     // Admin related
     InvalidAddressIdMsg: string
     EnableKVMsg: string
     EnableSendMailMsg: string
+    EnableSendMailForDomainMsg: string
     InvalidCleanupConfigMsg: string
     InvalidCleanTypeMsg: string
     EnableKVForMailVerifyMsg: string

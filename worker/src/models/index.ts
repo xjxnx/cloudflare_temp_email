@@ -113,9 +113,19 @@ export class UserSettings {
         this.verifyMailSender = verifyMailSender;
         this.enableMailAllowList = enableMailAllowList;
         this.mailAllowList = mailAllowList;
-        this.maxAddressCount = maxAddressCount || 5;
+        this.maxAddressCount = (typeof maxAddressCount === "number" && maxAddressCount >= 0) ? maxAddressCount : 5;
         this.enableEmailCheckRegex = enableEmailCheckRegex;
         this.emailCheckRegex = emailCheckRegex;
+    }
+}
+
+export class AddressCreationSettings {
+
+    enableSubdomainMatch: boolean | undefined;
+
+    constructor(data: AddressCreationSettings | undefined | null) {
+        const { enableSubdomainMatch } = data || {};
+        this.enableSubdomainMatch = enableSubdomainMatch;
     }
 }
 
@@ -174,9 +184,27 @@ export type EmailRuleSettings = {
     emailForwardingList: SubdomainForwardAddressList[]
 }
 
+export type SendMailLimitConfig = {
+    dailyEnabled: boolean;
+    monthlyEnabled: boolean;
+    dailyLimit: number | null;
+    monthlyLimit: number | null;
+}
+
 export type RoleConfig = {
     maxAddressCount?: number;
     // future configs can be added here
 }
 
 export type RoleAddressConfig = Record<string, RoleConfig>;
+
+export type RawMailRow = {
+    id: number;
+    message_id?: string;
+    source?: string;
+    address?: string;
+    raw?: string;
+    raw_blob?: unknown;
+    metadata?: string;
+    created_at?: string;
+}

@@ -15,6 +15,11 @@ api.get('/open_api/settings', async (c) => {
         const auth = c.req.raw.headers.get("x-custom-auth");
         needAuth = !auth || !passwords.includes(auth);
     }
+    const smtpImapProxyConfig = utils.getJsonObjectValue<SmtpImapProxyConfig>(
+        c.env.SMTP_IMAP_PROXY_CONFIG
+    ) || {};
+    const smtpProxyConfig = smtpImapProxyConfig.smtp || {};
+    const imapProxyConfig = smtpImapProxyConfig.imap || {};
 
     return c.json({
         "title": c.env.TITLE,
@@ -26,6 +31,7 @@ api.get('/open_api/settings', async (c) => {
         "maxAddressLen": utils.getIntValue(c.env.MAX_ADDRESS_LEN, 30),
         "defaultDomains": utils.getDefaultDomains(c),
         "domains": utils.getDomains(c),
+        "randomSubdomainDomains": utils.getRandomSubdomainDomains(c),
         "domainLabels": utils.getStringArray(c.env.DOMAIN_LABELS),
         "needAuth": needAuth,
         "adminContact": c.env.ADMIN_CONTACT,
@@ -44,6 +50,19 @@ api.get('/open_api/settings', async (c) => {
         "showGithub": !utils.getBooleanValue(c.env.DISABLE_SHOW_GITHUB),
         "disableAdminPasswordCheck": utils.getBooleanValue(c.env.DISABLE_ADMIN_PASSWORD_CHECK),
         "enableAddressPassword": utils.getBooleanValue(c.env.ENABLE_ADDRESS_PASSWORD),
+        "enableAgentEmailInfo": utils.getBooleanValue(c.env.ENABLE_AGENT_EMAIL_INFO),
+        "smtpImapProxyConfig": {
+            "smtp": {
+                "host": utils.getStringValue(smtpProxyConfig.host),
+                "port": utils.getIntValue(smtpProxyConfig.port, 8025),
+                "starttls": utils.getBooleanValue(smtpProxyConfig.starttls),
+            },
+            "imap": {
+                "host": utils.getStringValue(imapProxyConfig.host),
+                "port": utils.getIntValue(imapProxyConfig.port, 11143),
+                "starttls": utils.getBooleanValue(imapProxyConfig.starttls),
+            },
+        },
         "statusUrl": utils.getStringValue(c.env.STATUS_URL),
         "enableGlobalTurnstileCheck": utils.isGlobalTurnstileEnabled(c)
     });
