@@ -115,7 +115,7 @@ export const deMessages = {
   "views.admin.Account.clearInbox": "Posteingang leeren",
   "views.index.AccountSettings.clearSentItems": "Gesendete Elemente leeren",
   "views.admin.Account.clearSentItems": "Gesendete Elemente leeren",
-  "views.Header.title": "Cloudflare Temporäre E-Mail",
+  "views.Header.title": "MiaoMail",
   "views.admin.DatabaseManager.code_db_version": "Vom Code benötigte DB-Version",
   "views.user.UserOauth2Callback.codeNotFound": "Code nicht gefunden",
   "views.admin.AccountSettings.config": "Konfiguration",

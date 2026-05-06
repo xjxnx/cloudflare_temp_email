@@ -115,7 +115,7 @@ export const esMessages = {
   "views.admin.Account.clearInbox": "Vaciar bandeja de entrada",
   "views.index.AccountSettings.clearSentItems": "Vaciar enviados",
   "views.admin.Account.clearSentItems": "Vaciar enviados",
-  "views.Header.title": "Cloudflare Correo Temporal",
+  "views.Header.title": "MiaoMail",
   "views.admin.DatabaseManager.code_db_version": "Versión de BD requerida por el código",
   "views.user.UserOauth2Callback.codeNotFound": "código no encontrado",
   "views.admin.AccountSettings.config": "Configuración",

@@ -143,7 +143,7 @@
 | `TITLE`                    | Text        | Custom frontend page website title, supports html                        | `Custom Title`        |
 | `ANNOUNCEMENT`             | Text        | Custom frontend page announcement, supports html                         | `Custom Announcement` |
 | `ALWAYS_SHOW_ANNOUNCEMENT` | Text/JSON   | Whether to always show announcement (even if unchanged), default `false` | `true`                |
-| `COPYRIGHT`                | Text        | Custom frontend footer text, supports html                               | `Dream Hunter`        |
+| `COPYRIGHT`                | Text        | Custom frontend footer text, supports html                               | `xjxnx`               |
 | `ADMIN_CONTACT`            | Text        | Admin contact information, can be any string, hidden if not configured   | `xxx@gmail.com`       |
 | `DISABLE_SHOW_GITHUB`      | Text/JSON   | Whether to show GitHub link                                              | `true`                |
 | `STATUS_URL`               | Text        | Status monitoring page URL, shows Status menu button when configured     | `https://status.example.com` |

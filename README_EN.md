@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD033 MD045 -->
-# Cloudflare Temp Email - Free Temporary Email Service
+# MiaoMail - Free Temporary Email Service Built on Cloudflare
 
 <p align="center">
   <a href="https://temp-mail-docs.awsl.uk" target="_blank">
@@ -84,7 +84,7 @@ Try it now → [https://mail.524028.xyz/](https://mail.524028.xyz/)
 <details open>
 <summary>Table of Contents (Click to expand/collapse)</summary>
 
-- [Cloudflare Temp Email - Free Temporary Email Service](#cloudflare-temp-email---free-temporary-email-service)
+- [MiaoMail - Free Temporary Email Service Built on Cloudflare](#miaomail---free-temporary-email-service-built-on-cloudflare)
   - [Deployment Documentation - Quick Start](#deployment-documentation---quick-start)
   - [Changelog](#changelog)
   - [Live Demo](#live-demo)

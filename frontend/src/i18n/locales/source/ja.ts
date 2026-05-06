@@ -115,7 +115,7 @@ export const jaMessages = {
   "views.admin.Account.clearInbox": "受信箱を削除",
   "views.index.AccountSettings.clearSentItems": "送信済みを削除",
   "views.admin.Account.clearSentItems": "送信済みを削除",
-  "views.Header.title": "Cloudflare 一時メール",
+  "views.Header.title": "MiaoMail",
   "views.admin.DatabaseManager.code_db_version": "コードが必要とするDBバージョン",
   "views.user.UserOauth2Callback.codeNotFound": "コードが見つかりません",
   "views.admin.AccountSettings.config": "設定",

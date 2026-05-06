@@ -15,6 +15,7 @@ ENABLE_USER_CREATE_EMAIL = true
 ENABLE_USER_DELETE_EMAIL = true
 ENABLE_AUTO_REPLY = false
 ENABLE_ADDRESS_PASSWORD = false
+COPYRIGHT = "xjxnx"
 
 [[d1_databases]]
 binding = "DB"

@@ -139,7 +139,7 @@
 | `TITLE`                    | 文本        | 自定义前端页面网站标题，支持 html                | `Custom Title`        |
 | `ANNOUNCEMENT`             | 文本        | 自定义前端页面公告，支持 html                    | `Custom Announcement` |
 | `ALWAYS_SHOW_ANNOUNCEMENT` | 文本/JSON   | 是否总是显示公告(即使无更改), 默认 `false`       | `true`                |
-| `COPYRIGHT`                | 文本        | 自定义前端界面页脚文本，支持 html                | `Dream Hunter`        |
+| `COPYRIGHT`                | 文本        | 自定义前端界面页脚文本，支持 html                | `xjxnx`               |
 | `ADMIN_CONTACT`            | 文本        | admin 联系方式，可配置任意字符串, 不配置则不显示 | `xxx@gmail.com`       |
 | `DISABLE_SHOW_GITHUB`      | 文本/JSON   | 是否显示 GitHub 链接                             | `true`                |
 | `STATUS_URL`               | 文本        | 状态监控页面 URL，配置后显示 Status 菜单按钮     | `https://status.example.com` |

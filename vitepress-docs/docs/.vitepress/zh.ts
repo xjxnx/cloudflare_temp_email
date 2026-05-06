@@ -1,13 +1,13 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const zh = defineConfig({
-    title: "临时邮箱文档",
+    title: "MiaoMail 文档",
     lang: 'zh-Hans',
-    description: 'CloudFlare 免费收发临时域名邮箱，支持多域名、附件、Telegram Bot、Webhook、SMTP/IMAP',
+    description: 'MiaoMail：基于 CloudFlare 免费收发临时域名邮箱，支持多域名、附件、Telegram Bot、Webhook、SMTP/IMAP',
 
     head: [
         ['meta', { property: 'og:locale', content: 'zh_CN' }],
-        ['meta', { property: 'og:description', content: 'CloudFlare 免费收发临时域名邮箱，支持多域名、附件、Telegram Bot、Webhook、SMTP/IMAP' }],
+        ['meta', { property: 'og:description', content: 'MiaoMail：基于 CloudFlare 免费收发临时域名邮箱，支持多域名、附件、Telegram Bot、Webhook、SMTP/IMAP' }],
     ],
 
     themeConfig: {
@@ -24,7 +24,7 @@ export const zh = defineConfig({
 
         footer: {
             message: '基于 MIT 许可发布',
-            copyright: `版权所有 © 2023-${new Date().getFullYear()} Dream Hunter`
+            copyright: `版权所有 © 2023-${new Date().getFullYear()} xjxnx`
         },
 
         docFooter: {

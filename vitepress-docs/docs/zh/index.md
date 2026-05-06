@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "临时邮箱文档"
-  tagline: "搭建 CloudFlare 免费收发 临时域名邮箱"
+  name: "MiaoMail 文档"
+  tagline: "基于 CloudFlare 免费搭建 MiaoMail 临时域名邮箱"
   actions:
     - theme: brand
       text: 立即试用

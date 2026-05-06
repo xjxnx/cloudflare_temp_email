@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Temporary Email Docs"
-  tagline: "Build Free CloudFlare Temporary Domain Email with Send & Receive"
+  name: "MiaoMail Docs"
+  tagline: "Build MiaoMail — a free CloudFlare-based temporary domain email service with send & receive"
   actions:
     - theme: brand
       text: Try it now

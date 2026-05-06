@@ -80,7 +80,7 @@ function Stop-IfFailed {
 Write-Host @"
 
 ==============================================================
-   Cloudflare Temp Email - 一键更新脚本
+   MiaoMail - 一键更新脚本（基于 Cloudflare）
 ==============================================================
    项目目录: $ProjectRoot
    生产域名: $ProductionUrl

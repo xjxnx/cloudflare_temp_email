@@ -1,13 +1,13 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const en = defineConfig({
-    title: "Temp Mail Doc",
+    title: "MiaoMail Docs",
     lang: 'en-US',
-    description: 'Free temporary domain email powered by CloudFlare Workers, with multi-domain, attachments, Telegram Bot, Webhook, SMTP/IMAP support',
+    description: 'MiaoMail: Free temporary domain email powered by CloudFlare Workers, with multi-domain, attachments, Telegram Bot, Webhook, SMTP/IMAP support',
 
     head: [
         ['meta', { property: 'og:locale', content: 'en_US' }],
-        ['meta', { property: 'og:description', content: 'Free temporary domain email powered by CloudFlare Workers, with multi-domain, attachments, Telegram Bot, Webhook, SMTP/IMAP support' }],
+        ['meta', { property: 'og:description', content: 'MiaoMail: Free temporary domain email powered by CloudFlare Workers, with multi-domain, attachments, Telegram Bot, Webhook, SMTP/IMAP support' }],
     ],
 
     themeConfig: {
@@ -24,7 +24,7 @@ export const en = defineConfig({
 
         footer: {
             message: 'Based on MIT license',
-            copyright: `Copyright © 2023-${new Date().getFullYear()} Dream Hunter`
+            copyright: `Copyright © 2023-${new Date().getFullYear()} xjxnx`
         },
 
         docFooter: {

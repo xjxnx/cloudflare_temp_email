@@ -19,6 +19,9 @@
 
 ### Improvements
 
+- style: |Branding| Rename the user-facing product name to `MiaoMail` across all visible surfaces: frontend header i18n title (zh / en / es / pt-BR / ja / de), `frontend/index.html` document title and PWA title, the Chinese and English README headings, the VitePress site title and home hero (zh + en), OG / Twitter card metadata, the `update.ps1` banner, and `e2e/README.md`. Internal identifiers (repository slug, `cloudflare_temp_email` package name, wrangler `name`, KV prefixes, skill IDs, etc.) are intentionally kept unchanged, and the project is still described as "built on Cloudflare"
+- style: |Footer| Update the copyright attribution in the frontend footer and the VitePress site footer (zh + en) from `Dream Hunter` to `xjxnx`. The default `copyright` in `frontend/src/store/index.js`, the `COPYRIGHT` example in `worker/wrangler.toml.template`, and the worker-vars / cli documentation examples are aligned with the new default. The MIT author attribution in `LICENSE` is intentionally preserved as required by the license
+
 ## v1.8.0
 
 ### Features

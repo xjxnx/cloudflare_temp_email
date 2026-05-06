@@ -19,6 +19,9 @@
 
 ### Improvements
 
+- style: |品牌| 将用户可见的产品名统一更名为 `MiaoMail`：覆盖前端页头 i18n 标题（zh / en / es / pt-BR / ja / de）、`frontend/index.html` 站点 title 与 PWA 标题、中英文 README 主标题、VitePress 文档站标题与中英文首页 hero、OG / Twitter 卡片元信息，以及 `update.ps1` 脚本横幅与 `e2e/README.md`；仓库地址、`cloudflare_temp_email` 包名 / wrangler name / KV 前缀 / skill 标识等内部代号保持不变，仍标注"基于 Cloudflare 构建"
+- style: |页脚| 将前端页脚与 VitePress 中英文文档站页脚的版权署名由 `Dream Hunter` 更新为 `xjxnx`，同步调整 `frontend/src/store/index.js` 默认 `copyright`、`worker/wrangler.toml.template` 与 worker-vars/cli 文档中的 `COPYRIGHT` 默认值示例；`LICENSE` 中的 MIT 原作者版权声明按协议要求保持不变
+
 ## v1.8.0
 
 ### Features
